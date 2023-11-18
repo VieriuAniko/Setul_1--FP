@@ -46,7 +46,7 @@ namespace Setul_1___ex._20
                 cifre.Add(cifra);
 
                 rest = parteFractionara * 10 % n;
-                if (!resturi.Contains(rest))//daca se intalneste un rest egal cu un rest anetrior atunci fractia este periodica
+                if (!resturi.Contains(rest))
                 {
                     resturi.Add(rest);
                 }
